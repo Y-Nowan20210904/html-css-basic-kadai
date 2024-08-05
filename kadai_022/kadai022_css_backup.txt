@@ -1,22 +1,8 @@
 header{
-  margin: 0px;
   padding-bottom: 20px;
   background-color: rgb(244, 79, 79);
   text-align: center;
 }
-
-body{
-  padding: 0px;
-  margin: 0px;
-}
-
-h1{
-  margin: 20px auto;
-  color:  rgb(255, 255, 255);
-  text-align: center;
-}
-
-
 main{
   padding: 10px;
   margin: 10px;  
@@ -32,17 +18,16 @@ main{
   margin: 20px 0px;
   text-align: center;    
 }
-
-h2::before{
-  content: "●";
-  color: rgb(239,111,139);
+h1{
+  padding: 0px;
+  margin: 0px;
+  color: rgb(255, 255, 255);
 }
-
-h2{
+.content{
   font-size: 25px;
-  border-bottom: 3px dotted rgb(6, 4, 4); }
- 
-
+  border-bottom: 3px dotted rgb(236, 122, 122); 
+  before{content:"&#8226; "rgb(239, 111, 139) ;}
+  }
   .content p:nth-of-type(2)::first-letter {
       color: rgb(97, 206, 249);
       font-weight: bold;
@@ -56,7 +41,10 @@ p{
   margin: 0px;
   font-size: 20px;
 }
-
+body{
+  padding: 0px;
+  margin: 0px;
+}
 a{
   font-size: 20px;
   color: rgb(255, 255, 255);
@@ -76,16 +64,16 @@ a:hover {
 @media screen and (max-width: 768px) {
   /* 768px以下の場合のスタイルを記述します */
 
-   h2 {
+  h2 {
     font-size: 30px;
-   }
+  }
 
-   p {
+  p {
     font-size: 25px;
-   }
+  }
 
-   #parent {
+  #parent {
     display: flex;
     flex-direction: column;
-   }
+  }
 }
