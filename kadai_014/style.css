@@ -4,41 +4,28 @@ html {
 }
 body{
   font-family: "Arial", "Meiryo", sans-serif;
-  border-bottom:solid 3px rgb(115,115,114);
   text-align: center;
 }
 
 h1 {
-  /* ここにGoogle Fontsを指定します */
-  // <uniquifier>: Use a unique and descriptive class name
-  // <weight>: Use a value from 100 to 700
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing:  auto;
     font-weight: <weight>;
-    font-sizw: 2rem;
-    border-top: solid 3px;
-    border-bottom: solid 3px;
+    font-size: 2rem;
+    border-bottom:solid 3px rgb(115,115,114);
+    letter-spacing: 1.2em;
 }
 
 header{
-  letter-spacing: 1.2em;
+
   text-shadow: 1px 1px 2px green ;
+}
+
+#basic p{
+  font-weight: bold;
 }
 .skyblue{
    color: skyblue; 
  }
 .pink{
   color: rgb(255,192,203);
-}
-.font-01{
-  font-weight: bold;
-}
-
-.skyblue-01{
-  color: skyblue;
-  font-size: 20px; 
-}
-.pink-01{
-color: rgb(255,192,203);
-font-size: 20px;
-}
